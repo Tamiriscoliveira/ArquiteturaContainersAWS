@@ -3,7 +3,7 @@ Repositório para o curso de Arquitetura de Containers na AWS da LinuxTips - Ins
 
 Iniciamos fazendo um breve resumo sobre os recursos de VPC da AWS.  A VPC Virtual Private Cloud que é a base para construção de uma infraestrutura de rede isolada na nuvem que permite um controle completo para configurar e gerenciar.
 
-Regiões são áreas geográficas que contém múltiplas AZ's (Zonas de disponibilidade) que atuam independentemente, que facilita trabalha com tolerância a falhas e estabilidade.
+Regiões são áreas geográficas que contém múltiplas AZ's (Zonas de disponibilidade) que atuam independentemente, que facilita trabalhar com tolerância a falhas e estabilidade.
 
 Zonas de Disponibilidade (AZ's) são datacenters com energia, rede e conectividade redundantes que proporcionam alta disponibilidade, tolerância a falhas e escalabilidade em níveis superiores aos que um único datacenter pode oferecer. 
 
