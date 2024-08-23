@@ -1,7 +1,7 @@
 #### GENERAL CONFIGS ####
 
 variable "project_name" {
-  description = "Nome do projet. Essa variável será um prefixo para os recursos criados dentro desse projeto"
+  description = "Nome do projeto. Váriavel para ser utilizada no projeto"
 }
 
 variable "region" {
