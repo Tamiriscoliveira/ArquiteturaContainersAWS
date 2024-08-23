@@ -1,4 +1,4 @@
-# ArquiteturaContainersAWS
+# ArquiteturaContainersAWS - Day 1
 Repositório para o curso de Arquitetura de Containers na AWS da LinuxTips - Instrutor: Matheus Fidelis
 
 Iniciamos fazendo um breve resumo sobre os recursos de VPC da AWS.  A VPC Virtual Private Cloud que é a base para construção de uma infraestrutura de rede isolada na nuvem que permite um controle completo para configurar e gerenciar.
