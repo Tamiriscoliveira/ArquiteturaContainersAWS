@@ -18,13 +18,15 @@ E também e possível ter um controle do tráfego entre as sub-redes utilizando 
 
 
 <br/>
-## Requisitos
+
+# Requisitos
+
 | Name | Version |
 |------|---------|
 | <a name="Terraform"></a> [Terraform](#terraform\_terraform) | v1.9.4  |
 | <a name="AWS CLI"></a> [aws-cli](#aws\_cli) | 2.5.8  |
 
-
+<br/>
 
 O Planejamento é construir um ambiente com três zonas de disponibilidade todas na região us-east-1.
  - Uma VPC
@@ -33,5 +35,15 @@ O Planejamento é construir um ambiente com três zonas de disponibilidade todas
  - Um NAT-Gateway
  - Um Elastic IP
 
+![VPC](outros/topologia.jpg)
+
+<br/>
+
+O endereçamento foi dividido em:
+- VPC 10.0.0.0/16 ---- 65.534 IP's
+- Duas sub-redes /24  --------- 4.096 IP's
+- Uma sub-rede /20 ---- 254 IP's
+
+![VPC](outros/enderecos.jpg)
 
    
